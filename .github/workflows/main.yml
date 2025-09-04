@@ -5,7 +5,9 @@ on:
   pull_request:
     branches: [main, master, develop, stage, release]
   workflow_dispatch:
- 
+  
+env:
+  DETECT_ACCURACY_REQUIRED: NONE
   
 jobs:
   build:
