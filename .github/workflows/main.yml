@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   
 env:
-  DETECT_ACCURACY_REQUIRED: PIP
+  DETECT_ACCURACY_REQUIRED: NONE
   
 jobs:
   build:
