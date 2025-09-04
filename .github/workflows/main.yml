@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   
 env:
-  DETECT_ACCURACY_REQUIRED: NONE
+  DETECT_ACCURACY_REQUIRED: HIGH
   
 jobs:
   build:
